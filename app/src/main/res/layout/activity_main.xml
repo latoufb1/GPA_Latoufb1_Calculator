@@ -1,0 +1,105 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="GPA_Latoufb1_CALCULATOR"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="250px"
+        android:text="Math: "
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginTop="400px"
+        android:text="Science: "
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginTop="550px"
+        android:text="History: "
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="700px"
+        android:text="Arts: "
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="850px"
+        android:text="Financial: "
+        android:textSize="60px" />
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="1200px"
+        android:text="GPA"
+        android:textSize="60px" />
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="60px"
+        android:id="@+id/p1"
+        android:layout_marginTop="250px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="60px"
+        android:id="@+id/p2"
+        android:layout_marginTop="400px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="60px"
+        android:id="@+id/p3"
+        android:layout_marginTop="550px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="60px"
+        android:id="@+id/p4"
+        android:layout_marginTop="700px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="60px"
+        android:id="@+id/p5"
+        android:layout_marginTop="850px"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1200px"
+        android:textSize="60px"
+        android:id="@+id/txt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute GPA"
+        android:textSize="60px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1500px"
+        android:id="@+id/button"/>
+</RelativeLayout>
